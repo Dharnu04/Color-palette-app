@@ -1,16 +1,34 @@
-# React + Vite
+# Color Palette Brand Studio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React + Tailwind web app for generating color palettes, exploring curated palettes, building brand kits, checking contrast, exporting design tokens, and previewing brand systems.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Generate color palettes from random seeds or uploaded images
+- Discover curated palettes through Popular, Explore, and Trending collections
+- Refine palettes with color locking, drag-and-drop reordering, and palette mixing
+- Create gradients and validate accessibility with contrast checking
+- Generate font pairings, brand personality insights, and visual brand systems
+- Visualize palettes through Brand Kits, Brand Boards, Social Previews, and Design Systems
+- Save favorites and recent palettes with persistent local storage
+- Share palettes instantly with unique URLs
+- Export as CSS Variables, Tailwind Config, Figma Tokens, PNG, and PDF
+- Built-in Dark Mode and keyboard shortcuts for a faster workflow
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- Lucide React
+- html2canvas
+- jsPDF
+- LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Install dependencies
+
+```bash
+npm install
